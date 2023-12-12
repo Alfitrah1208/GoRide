@@ -3,108 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GoRide</title>
+    <form action="process_order.php" method="post">
+    <title>Pesanan Gojek</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #fff; /* Warna latar belakang putih */
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-        }
-
-        nav {
-            background-color: #0055FA; /* Warna latar belakang biru (#0055FA) */
-            color: #fff;
-            padding: 0.5em;
-        }
-
-        nav ul {
-            list-style-type: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fFf8dc;
             margin: 0;
             padding: 0;
             display: flex;
+            align-items: center;
             justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #6495ED;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #FF8C00;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
             align-items: center;
         }
 
-        nav li {
-            margin: 0 10px;
+        label {
+            margin: 10px 0;
+            font-weight: bold;
+            color: #333;
         }
 
-        nav a {
-            text-decoration: none;
-            color: #fff;
-            transition: color 0.3s ease;
-        }
-
-        nav a:hover {
-            color: #FFD700; /* Warna kuning pada hover */
-        }
-
-        section {
-            margin: 20px;
-            background-color: #fff; /* Warna latar belakang putih */
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-            position: fixed;
-            bottom: 0;
+        select, input {
+            padding: 15px;
+            margin: 8px 0;
             width: 100%;
+            box-sizing: border-box;
         }
 
-        /* Aturan media query untuk tampilan desktop */
-        @media screen and (min-width: 768px) {
-            nav {
-                text-align: center;
-            }
+        button {
+            background-color: #6495ED;
+            color: orange;
+            padding: 25px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+        }
 
-            section {
-                width: 60%;
-                margin: 20px auto;
-            }
+        button:hover {
+            background-color: #E9967A;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1 style="color: #FFD700;">GoRide</h1>
-    </header>
 
-    <nav style="background-color: #0055FA; padding: 10px;">
-    <ul style="list-style-type: none; margin: 0; padding: 0; text-align: center;">
-        <li style="display: inline; margin-right: 10px;">
-            <a href="index.php" style="color: #fff; text-decoration: none;">Beranda</a>
-        </li>
-        <li style="display: inline; margin-right: 10px;">
-            <a href="security.php" style="color: #fff; text-decoration: none;">Keamanan</a>
-        </li>
-        <li style="display: inline;">
-            <a href="address.php" style="color: #fff; text-decoration: none;">Alamat</a>
-        </li>
-    </ul>
-</nav>
+    <div class="container">
+        <h1>Pesanan GoRide</h1>
+        <form action="#">
+            <label for="service">Layanan:</label>
+            <select name="service" id="service" required>
+                <option value="goride">GoRide</option>
+                <option value="gofood">GoFood</option>
+                <option value="gosend">GoSend</option>
+                <option value="goTravel">GoTravel</option>
+            </select>
 
+            <label for="destination">Tujuan:</label>
+            <input type="text" name="destination" id="destination" required>
 
-    <section>
-        <h2 style="color: #008000;">Selamat datang di GoRide</h2>
-        <p>Temukan fitur-fitur keamanan dan alamat kami.</p>
-    </section>
+            <label for="payment_method">Metode Pembayaran:</label>
+            <select name="payment_method" id="payment_method" required>
+                <option value="gopay">GoPay</option>
+                <option value="Cash">Cash</option>
+                <option value="credit_card">Kartu Kredit</option>
+            </select>
 
-    <footer>
-        <p>&copy; <span style="color: #FFD700;"><?php echo date("Y"); ?></span> GoRide</p>
-    </footer>
+            <button type="submit">Pesan</button>
+        </form>
+    </div>
+
 </body>
 </html>
- 
