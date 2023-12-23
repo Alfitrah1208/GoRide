@@ -46,6 +46,6 @@ git clone https://github.com/Alfitrah1208/GoRide.git
 
 ### Langkah 5: Menjalankan Web
 
-- Buka browser dan akses proyek di localhost/php/GoRide/login.php
+- Akses "login.php" untuk menjalankan website GoRide
 - setelah di akses maka akan masuk ke halaman login anda bisa klik daftar sekarang untuk melakukan daftar atau anda juga bisa melakukan login menggunanakan email "alfitrah@gmail.com" password "123".
 - Jika sudah anda akan langsung masuk ke halaman beranda GoRide
