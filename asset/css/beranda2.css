@@ -344,7 +344,7 @@
     100% { transform: translateY(20px); }
   }
   /*-----------------------------------*\
-    #BLOG
+    #promo
   \*-----------------------------------*/
   .blog :is(.section-subtitle, .section-title, .section-text) { text-align: center; }
   .blog .section-text { margin-block: 20px 50px; }
