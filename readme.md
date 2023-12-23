@@ -48,4 +48,10 @@ git clone https://github.com/Alfitrah1208/GoRide.git
 
 - Akses "login.php" untuk menjalankan website GoRide
 - setelah di akses maka akan masuk ke halaman login anda bisa klik daftar sekarang untuk melakukan daftar atau anda juga bisa melakukan login menggunanakan email "alfitrah@gmail.com" password "123".
-- Jika sudah anda akan langsung masuk ke halaman beranda GoRide
+- Jika sudah anda akan langsung masuk ke halaman beranda GoRide.
+
+  
+
+https://github.com/Alfitrah1208/GoRide/assets/112506935/089192a4-7ad6-4f09-b941-b873f04dcbeb
+
+
