@@ -8,7 +8,7 @@
 <!-- - favicon-->
     <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 <!-- - custom css link-->
-    <link rel="stylesheet" href="beranda2.css">
+    <link rel="stylesheet" href="asset/css/beranda2.css">
     <!--- google font link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -113,7 +113,7 @@
                             <div class="blog-card">
 
                                 <figure class="card-banner img-holder" style="--width: 790; --height: 370;">
-                                    <img src="C:\xampp\htdocs\php\pro\abil\login system with avatar\Kuning Merah Ilustrasi Paket Kuota Internet Facebook Ad.png" width="790" height="370" loading="lazy"
+                                    <img src="asset/gambar/Kuning Merah Ilustrasi Paket Kuota Internet Facebook Ad.png" width="790" height="370" loading="lazy"
                                         alt=""
                                         class="img-cover">
                                 </figure>
@@ -139,7 +139,7 @@
                             <div class="blog-card">
 
                                 <figure class="card-banner img-holder" style="--width: 790; --height: 370;">
-                                    <img src="C:\xampp\htdocs\php\pro\abil\login system with avatar\Kuning Merah Ilustrasi Paket Kuota Internet Facebook Ad.png" width="790" height="370" loading="lazy"
+                                    <img src="sset/gambar/Kuning Merah Ilustrasi Paket Kuota Internet Facebook Ad.png" width="790" height="370" loading="lazy"
         
                                         class="img-cover">
                                 </figure>
