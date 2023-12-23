@@ -56,7 +56,7 @@ if(isset($_POST['submit'])){
 <div class="form-container">
 
    <form action="" method="post" enctype="multipart/form-data">
-      <h3>register now</h3>
+      <h3>Daftar</h3>
       <?php
       if(isset($message)){
          foreach($message as $message){
@@ -70,7 +70,7 @@ if(isset($_POST['submit'])){
       <input type="password" name="cpassword" placeholder="confirm password" class="box" required>
       <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png">
       <input type="submit" name="submit" value="register now" class="btn">
-      <p>already have an account? <a href="login.php">login now</a></p>
+      <p>sudah punya akun?? <a href="login.php">login</a></p>
    </form>
 
 </div>
