@@ -52,6 +52,5 @@ git clone https://github.com/Alfitrah1208/GoRide.git
 
   
 
-https://github.com/Alfitrah1208/GoRide/assets/112506935/089192a4-7ad6-4f09-b941-b873f04dcbeb
 
 
